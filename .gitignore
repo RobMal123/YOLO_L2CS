@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Model weights and checkpoints
+models/
+*.pkl
+*.pth
+*.pt
+!yolov8n.pt
+
+# Video files (for testing only)
+videos/*.mp4
+videos/*.avi
+videos/*.mov
+videos/*.MOV
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files
+output/
+*.mp4
+*.avi
+!videos/
+
